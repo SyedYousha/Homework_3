@@ -10,6 +10,12 @@
   </head>
 
   <body>
+  <div class='Appointment_manager_header'>
+      <h1>Appointment Manager</h1>
+      <%= link_to "Physicians", physicians_path %>
+      <%= link_to "Appointments", appointments_path %>
+      <%= link_to "Patients", patients_path %>
+  </div>
     <%= yield %>
   </body>
 </html>

@@ -13,3 +13,8 @@
  *= require_tree .
  *= require_self
  */
+ .Appointment_manager_header {
+    background-color: lightgray;
+    border: 1px solid black;
+    padding: 1%;
+ }
